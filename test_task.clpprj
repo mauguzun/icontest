@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\open\OSPanel\domains\localhost\sslv\test_task.clpprj">
-	<settings><PM_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_URL><PM_HOME_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\open\OSPanel\domains\localhost\sslv\application\controllers\Welcome.php;C:\open\OSPanel\domains\localhost\sslv\application\views\welcome_message.php;"/><added value=""/><lastopfiles>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_user.php"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_user.php"/>
+	<settings><PM_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_URL><PM_HOME_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\open\OSPanel\domains\localhost\sslv\application\controllers\NewFolder;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Upload.php;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Welcome.php;C:\open\OSPanel\domains\localhost\sslv\application\views\welcome_message.php;C:\open\OSPanel\domains\localhost\sslv\js\fileupload.js;"/><added value=""/><lastopfiles>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\header.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\js\upload.js"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_user.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\autoload.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\ion_auth.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 	</errors>
@@ -421,8 +422,9 @@
 		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Benchmark.php" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\system\index.html" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\system\.htaccess" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\js\upload.js" crc="1519055065"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\page.php" crc="1519040052"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\header.php" crc="1519047220"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\header.php" crc="1519049640"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\footer.php" crc="1519037989"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\index.html" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\error_php.php" crc="1519036599"/>
@@ -444,10 +446,10 @@
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\login.php" crc="1519042487"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\index.php" crc="1519036661"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\forgot_password.php" crc="1519036661"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_user.php" crc="1519046499"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_user.php" crc="1519054242"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_group.php" crc="1519036661"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\deactivate_user.php" crc="1519036661"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_user.php" crc="1519046505"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_user.php" crc="1519049341"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_group.php" crc="1519036661"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\change_password.php" crc="1519036661"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\index.html" crc="1519036599"/>
@@ -548,14 +550,14 @@
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\core\index.html" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Main.php" crc="1519043205"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\index.html" crc="1519036599"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php" crc="1519047673"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php" crc="1519055098"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\user_agents.php" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\routes.php" crc="1519040215"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\profiler.php" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\mimes.php" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\migration.php" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\memcached.php" crc="1519036599"/>
-		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\ion_auth.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\ion_auth.php" crc="1519054548"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\index.html" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\hooks.php" crc="1519036599"/>
 		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\foreign_chars.php" crc="1519036599"/>

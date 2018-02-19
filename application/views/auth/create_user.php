@@ -65,3 +65,4 @@ if ($identity_column !== 'email') {
 </p>
 
 <?php echo form_close();?>
+

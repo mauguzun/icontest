@@ -11,6 +11,8 @@ class Auth extends CI_Controller
 
     public function __construct()
     {
+    	
+    	
         parent::__construct();
         $this->load->database();
 
@@ -140,11 +142,12 @@ class Auth extends CI_Controller
             $this->data['old_password'] = array(
                 'name'=> 'old',
                 'id'  => 'old',
+                'class'=>'form-control',
                 'type'=> 'password',
             );
             $this->data['new_password'] = array(
                 'name'   => 'new',
-                'id'     => 'new',
+                'id'     => 'new', 'class'=>'form-control',
                 'type'   => 'password',
                 'pattern'=> '^.{' . $this->data['min_password_length'] . '}.*$',
             );
@@ -275,14 +278,14 @@ class Auth extends CI_Controller
                 $this->data['min_password_length'] = $this->config->item('min_password_length', 'ion_auth');
                 $this->data['new_password'] = array(
                     'name'   => 'new',
-                    'id'     => 'new',
+                    'id'     => 'new','class'=>'form-control',
                     'type'   => 'password',
                     'pattern'=> '^.{' . $this->data['min_password_length'] . '}.*$',
                 );
                 $this->data['new_password_confirm'] = array(
                     'name'   => 'new_confirm',
                     'id'     => 'new_confirm',
-                    'type'   => 'password',
+                    'type'   => 'password','class'=>'form-control',
                     'pattern'=> '^.{' . $this->data['min_password_length'] . '}.*$',
                 );
                 $this->data['user_id'] = array(
@@ -682,9 +685,19 @@ class Auth extends CI_Controller
         $this->data['img'] = array(
             'name' => 'img',
             'id'   => 'img',
-            'type' => 'text','class'=>'form-control',"autocomplete"=>"off",
+            'type' => 'hidden',
+            'class'=>'form-control',"autocomplete"=>"off",
+            'value'=> $this->form_validation->set_value('img',$user['img']),
+        );
+        
+         $this->data['img_upload'] = array(
+            'id'   => 'img_upload',
+            'type' => 'file',
+            'class'=>'form-control',"autocomplete"=>"off",
             'value'=> $this->form_validation->set_value('img'),
         );
+        
+        $this->data['src'] = $user['img'];
     }
 
 

@@ -88,42 +88,42 @@
 <treenode node="test_random_element;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\array_helper_test.php;f8;27;2;34;;;;vpos;;v;;r;;d1,28;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Auth;PHP:Class Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f0;7;1;702;;;;vpos;;vCI_Controller;;c;;r&#10;Definition&#10;    class Auth extends CI_Controller&#10;&#10;Description&#10;     Class Auth;;d0,8;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;11;5;20;;;;vpos;;v;;r;;d4,12;;b1,0;;m">
+<treenode node="Auth;PHP:Class Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f0;7;1;714;;;;vpos;;vCI_Controller;;c;;r&#10;Definition&#10;    class Auth extends CI_Controller&#10;&#10;Description&#10;     Class Auth;;d0,8;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;11;5;22;;;;vpos;;v;;r;;d4,12;;b1,0;;m">
 </treenode>
-<treenode node="_additionalData;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;691;5;701;;;;vpos;;v array;;r;;d4,692;;b2,0;;m">
+<treenode node="_additionalData;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;703;5;713;;;;vpos;;v array;;r;;d4,704;;b2,0;;m">
 </treenode>
-<treenode node="_get_csrf_nonce;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;573;5;582;;;;vpos;;varray;;r&#10;Definition&#10;    _get_csrf_nonce()&#10;&#10;Description&#10;      A CSRF key-value pair&#10;&#10;Return:&#10;   A CSRF key-value pair;;d4,574;;b1,0;;m">
+<treenode node="_get_csrf_nonce;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;568;5;577;;;;vpos;;varray;;r&#10;Definition&#10;    _get_csrf_nonce()&#10;&#10;Description&#10;      A CSRF key-value pair&#10;&#10;Return:&#10;   A CSRF key-value pair;;d4,569;;b1,0;;m">
 </treenode>
-<treenode node="_render_page;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;605;5;616;;;;vpos;;vmixed;;r&#10;Definition&#10;    _render_page($view, $data = NULL, $returnhtml = FALSE)//I think this makes more sense&#10;&#10;Description&#10;     &#10;&#10;Parameters:&#10;    string $view&#10;    array|null $data&#10;    bool $returnhtml;;d4,606;;b1,0;;mstring $view;;parray|null $data;;pbool $returnhtml;;p">
+<treenode node="_render_page;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;600;5;611;;;;vpos;;vmixed;;r&#10;Definition&#10;    _render_page($view, $data = NULL, $returnhtml = FALSE)//I think this makes more sense&#10;&#10;Description&#10;     &#10;&#10;Parameters:&#10;    string $view&#10;    array|null $data&#10;    bool $returnhtml;;d4,601;;b1,0;;mstring $view;;parray|null $data;;pbool $returnhtml;;p">
 </treenode>
-<treenode node="_setFormValidation;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;625;5;632;;;;vpos;;v;;r;;d4,626;;b2,0;;m">
+<treenode node="_setFormValidation;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;620;5;627;;;;vpos;;v;;r;;d4,621;;b2,0;;m">
 </treenode>
-<treenode node="_setInputs;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;634;5;688;;;;vpos;;v;;r;;d4,635;;b2,0;;muser;;p">
+<treenode node="_setInputs;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;629;5;700;;;;vpos;;v;;r;;d4,630;;b2,0;;muser;;p">
 </treenode>
-<treenode node="_setPasswordValidation;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;618;5;623;;;;vpos;;v;;r;;d4,619;;b2,0;;m">
+<treenode node="_setPasswordValidation;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f14;613;5;618;;;;vpos;;v;;r;;d4,614;;b2,0;;m">
 </treenode>
-<treenode node="_valid_csrf_nonce;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;587;5;596;;;;vpos;;vbool;;r&#10;Definition&#10;    _valid_csrf_nonce()&#10;&#10;Description&#10;      Whether the posted CSRF token matches&#10;&#10;Return:&#10;   Whether the posted CSRF token matches;;d4,588;;b1,0;;m">
+<treenode node="_valid_csrf_nonce;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;582;5;591;;;;vpos;;vbool;;r&#10;Definition&#10;    _valid_csrf_nonce()&#10;&#10;Description&#10;      Whether the posted CSRF token matches&#10;&#10;Return:&#10;   Whether the posted CSRF token matches;;d4,583;;b1,0;;m">
 </treenode>
-<treenode node="activate;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;342;5;362;;;;vpos;;v;;r&#10;Definition&#10;    activate($id, $code = FALSE)&#10;&#10;Description&#10;     Activate the user&#10;&#10;Parameters:&#10;    int $id - The user ID&#10;    string|bool $code - The activation code;;d4,343;;b1,0;;mint $id;;pstring|bool $code;;p">
+<treenode node="activate;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;345;5;365;;;;vpos;;v;;r&#10;Definition&#10;    activate($id, $code = FALSE)&#10;&#10;Description&#10;     Activate the user&#10;&#10;Parameters:&#10;    int $id - The user ID&#10;    string|bool $code - The activation code;;d4,346;;b1,0;;mint $id;;pstring|bool $code;;p">
 </treenode>
-<treenode node="change_password;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;121;5;181;;;;vpos;;v;;r&#10;Definition&#10;    change_password()&#10;&#10;Description&#10;     Change password;;d4,122;;b1,0;;m">
+<treenode node="change_password;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;123;5;184;;;;vpos;;v;;r&#10;Definition&#10;    change_password()&#10;&#10;Description&#10;     Change password;;d4,124;;b1,0;;m">
 </treenode>
-<treenode node="create_user;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;411;5;458;;;;vpos;;v;;r&#10;Definition&#10;    create_user()&#10;&#10;Description&#10;     Create a new user;;d4,412;;b1,0;;m">
+<treenode node="create_user;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;414;5;461;;;;vpos;;v;;r&#10;Definition&#10;    create_user()&#10;&#10;Description&#10;     Create a new user;;d4,415;;b1,0;;m">
 </treenode>
-<treenode node="deactivate;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;369;5;406;;;;vpos;;v;;r&#10;Definition&#10;    deactivate($id = NULL)&#10;&#10;Description&#10;     Deactivate the user&#10;&#10;Parameters:&#10;    int|string|null $id - The user ID;;d4,370;;b1,0;;mint|string|null $id;;p">
+<treenode node="deactivate;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;372;5;409;;;;vpos;;v;;r&#10;Definition&#10;    deactivate($id = NULL)&#10;&#10;Description&#10;     Deactivate the user&#10;&#10;Parameters:&#10;    int|string|null $id - The user ID;;d4,373;;b1,0;;mint|string|null $id;;p">
 </treenode>
-<treenode node="edit_user;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;465;5;566;;;;vpos;;v;;r&#10;Definition&#10;    edit_user()&#10;&#10;Description&#10;     Edit a user&#10;&#10;Parameters:&#10;    int|string $id;;d4,466;;b1,0;;m">
+<treenode node="edit_user;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;468;5;561;;;;vpos;;v;;r&#10;Definition&#10;    edit_user()&#10;&#10;Description&#10;     Edit a user&#10;&#10;Parameters:&#10;    int|string $id;;d4,469;;b1,0;;m">
 </treenode>
-<treenode node="forgot_password;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;186;5;247;;;;vpos;;v;;r&#10;Definition&#10;    forgot_password()&#10;&#10;Description&#10;     Forgot password;;d4,187;;b1,0;;m">
+<treenode node="forgot_password;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;189;5;250;;;;vpos;;v;;r&#10;Definition&#10;    forgot_password()&#10;&#10;Description&#10;     Forgot password;;d4,190;;b1,0;;m">
 </treenode>
-<treenode node="index;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;25;5;50;;;;vpos;;v;;r&#10;Definition&#10;    index()&#10;&#10;Description&#10;     Redirect if needed, otherwise display the user list;;d4,26;;b1,0;;m">
+<treenode node="index;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;27;5;52;;;;vpos;;v;;r&#10;Definition&#10;    index()&#10;&#10;Description&#10;     Redirect if needed, otherwise display the user list;;d4,28;;b1,0;;m">
 </treenode>
-<treenode node="login;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;55;5;101;;;;vpos;;v;;r&#10;Definition&#10;    login()&#10;&#10;Description&#10;     Log the user in;;d4,56;;b1,0;;m">
+<treenode node="login;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;57;5;103;;;;vpos;;v;;r&#10;Definition&#10;    login()&#10;&#10;Description&#10;     Log the user in;;d4,58;;b1,0;;m">
 </treenode>
-<treenode node="logout;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;106;5;116;;;;vpos;;v;;r&#10;Definition&#10;    logout()&#10;&#10;Description&#10;     Log the user out;;d4,107;;b1,0;;m">
+<treenode node="logout;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;108;5;118;;;;vpos;;v;;r&#10;Definition&#10;    logout()&#10;&#10;Description&#10;     Log the user out;;d4,109;;b1,0;;m">
 </treenode>
-<treenode node="reset_password;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;254;5;334;;;;vpos;;v;;r&#10;Definition&#10;    reset_password($code = NULL)&#10;&#10;Description&#10;     Reset password - final step for forgotten password&#10;&#10;Parameters:&#10;    string|null $code - The reset code;;d4,255;;b1,0;;mstring|null $code;;p">
+<treenode node="reset_password;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php;f11;257;5;337;;;;vpos;;v;;r&#10;Definition&#10;    reset_password($code = NULL)&#10;&#10;Description&#10;     Reset password - final step for forgotten password&#10;&#10;Parameters:&#10;    string|null $code - The reset code;;d4,258;;b1,0;;mstring|null $code;;p">
 </treenode>
 </treenode>
 <treenode node="Bar;PHP:Class Name;C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\compat\standard_test.php;f0;339;1;345;;;;vpos;;v;;r;;d10,339;;b0,0;;m">
@@ -3976,7 +3976,7 @@
 <treenode node="__construct;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\system\core\my_controller\NewFile.php;f8;18;2;24;;C:\open\OSPanel\domains\localhost\sslv\system\core\my_controller\Logined_Controller.php;f11;19;5;24;;;;vpos;;v;;r;;d4,20;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Main;PHP:Class Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\NewFile.php;f0;3;1;16;;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Main.php;f0;3;1;23;;;;vpos;;vLogined_Controller;;c;;r;;d38,3;;b0,0;;m">
+<treenode node="Main;PHP:Class Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Main.php;f0;3;1;23;;;;vpos;;vLogined_Controller;;c;;r;;d38,3;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Main.php;f8;10;2;13;;;;vpos;;v;;r;;d30,10;;b1,0;;m">
 </treenode>
 <treenode node="index;PHP:Function Name;C:\open\OSPanel\domains\localhost\sslv\application\controllers\NewFile.php;f8;10;2;15;;C:\open\OSPanel\domains\localhost\sslv\application\controllers\Main.php;f8;15;2;22;;;;vpos;;v;;r;;d1,16;;b1,0;;m">

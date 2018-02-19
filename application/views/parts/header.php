@@ -11,7 +11,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
 
-
+    <script>
+    	let base ="<?= base_url();?>"
+    </script>
     <title>
         Signin Template for Bootstrap
     </title>
