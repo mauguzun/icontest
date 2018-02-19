@@ -4,9 +4,13 @@
 <p>
     <?php echo lang('edit_user_subheading');?>
 </p>
+
+<? if( isset($message) && !empty($message)) :?>
 <div class="alert alert-warning" id="infoMessage">
     <?php echo $message;?>
 </div>
+
+<? endif; ?>
 
 <?php echo form_open(uri_string());?>
 
