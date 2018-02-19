@@ -35,6 +35,9 @@
  * @since	Version 1.0.0
  * @filesource
  */
+ 
+require_once "my_controller/Logined_Controller.php";
+ 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**

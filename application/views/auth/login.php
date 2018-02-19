@@ -21,8 +21,10 @@
   </p>
 
 
-  <p><?php echo form_submit('submit', lang('login_submit_btn'));?></p>
+  <p><?php echo form_submit('submit', lang('login_submit_btn') ,["class"=>"form-control"]);?></p>
 
 <?php echo form_close();?>
 
 <p><a href="forgot_password"><?php echo lang('login_forgot_password');?></a></p>
+
+<p><a class="btn btn-primary" href="create_user"><?php echo lang('create_user_submit_btn');?></a></p>

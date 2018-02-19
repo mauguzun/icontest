@@ -1,3 +1,573 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\open\OSPanel\domains\localhost\sslv\test_task.clpprj">
-	<settings><PM_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_URL><PM_HOME_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS></settings></project>
+	<settings><PM_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_URL><PM_HOME_URL><![CDATA[C:/open/OSPanel/domains/localhost/pr/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\open\OSPanel\domains\localhost\sslv\application\controllers\Welcome.php;C:\open\OSPanel\domains\localhost\sslv\application\views\welcome_message.php;"/><added value=""/><lastopfiles>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_user.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_user.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\header.php"/>
+	</lastopfiles>
+	<errors version="5.11">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\bulgarian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;22"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\croatian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;25"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\czech\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;20"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\dutch\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;23"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\estonian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;22"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\finnish\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;22"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\german\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;27"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\greek\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;21"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\indonesian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;31"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\japanese\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;28"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\korean\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;22"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\lithuanian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;25"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\persian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;30"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\pirate\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;16"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\polish\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;30"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\slovak\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;20"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\slovenian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;23"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\swedish\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;22"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\language\ukrainian\ion_auth_lang.php">
+			<todo name="TODO Please Translate" pos="1;24"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\application\models\Ion_auth_model.php">
+			<todo name="TODO Third parameter was string type $description; this following code is to maintain backward comp" pos="3;2213"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\core\Loader.php">
+			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\core\Output.php">
+			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;209"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_forge.php">
+			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;555"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_query_builder.php">
+			<todo name="@todo error" pos="4;2070"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\sqlite3_driver.php">
+			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\sqlite3_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;135"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\string_helper.php">
+			<todo name="todo: remove in 3.1+" pos="19;202"/>
+			<todo name="todo: remove in 3.1+" pos="20;205"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\url_helper.php">
+			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Xmlrpc.php">
+			<todo name="@todo - this needs to be made more general purpose" pos="6;1572"/>
+		</todofile>
+		<todofile name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Output_test.php">
+			<todo name="TODO: Find a way to test header() values as well. Currently," pos="3;52"/>
+		</todofile>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\static\js\theme.js" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\static\js\oldtheme.js" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\static\css\theme.css" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\static\css\citheme.css" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\static\css\badge_only.css" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\versions.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\searchbox.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\search.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\pulldown.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\layout_old.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\layout.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\footer.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\breadcrumbs.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\_themes\sphinx_rtd_theme\__init__.py" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\source\conf.py" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\cilexer\cilexer\cilexer.py" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\cilexer\cilexer\__init__.py" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\user_guide_src\cilexer\setup.py" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\pdo\sqlite.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\pdo\pgsql.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\pdo\mysql.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\sqlite.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\pgsql.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\mysqli.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\travis\mysql.phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\libraries\table.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\libraries\session.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\libraries\encryption.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\libraries\encrypt.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\libraries\driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\schema\skeleton.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\drivers\sqlite.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\drivers\postgre.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\drivers\pdo.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\drivers\mysqli.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\drivers\mysql.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\db\driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\pdo\sqlite.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\pdo\pgsql.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\pdo\mysql.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\sqlite.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\pgsql.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\mysqli.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\config\mysql.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\database\db.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\core\uri.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\core\security.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\core\common.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\ci_testconfig.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\ci_testcase.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\mocks\autoloader.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Useragent_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Upload_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Typography_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Table_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Session_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Parser_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Form_validation_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Encryption_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Encrypt_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Driver_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\libraries\Calendar_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\xml_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\url_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\text_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\string_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\security_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\path_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\number_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\language_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\inflector_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\html_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\form_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\file_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\download_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\directory_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\date_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\cookie_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\captcha_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\helpers\array_helper_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\where_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\update_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\truncate_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\select_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\order_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\limit_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\like_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\join_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\insert_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\group_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\get_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\from_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\escape_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\empty_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\distinct_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\delete_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\query_builder\count_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\DB_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\database\DB_driver_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\compat\standard_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\compat\password_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\compat\mbstring_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\compat\hash_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Utf8_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\URI_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Security_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Output_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Model_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Log_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Loader_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Lang_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Input_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Config_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Common_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\core\Benchmark_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\codeigniter\Setup_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\phpunit.xml" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\tests\Bootstrap.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\drivers\Session_redis_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\drivers\Session_files_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\drivers\Session_database_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\drivers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\Session_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\Session.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Session\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_wincache.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_redis.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_memcached.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_file.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_dummy.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_apcu.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\drivers\Cache_apc.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Cache\Cache.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Zip.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Xmlrpcs.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Xmlrpc.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\User_agent.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Upload.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Unit_test.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Typography.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Trackback.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Table.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Profiler.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Parser.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Pagination.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Migration.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Image_lib.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Ftp.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Form_validation.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Encryption.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Encrypt.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Email.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\libraries\Calendar.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\upload_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\unit_test_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\profiler_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\pagination_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\number_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\migration_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\imglib_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\ftp_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\form_validation_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\email_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\db_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\date_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\english\calendar_lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\language\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\xml_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\url_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\typography_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\text_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\string_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\security_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\path_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\number_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\language_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\inflector_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\html_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\form_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\file_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\download_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\directory_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\date_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\cookie_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\captcha_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\helpers\array_helper.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\fonts\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlsrv\sqlsrv_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlsrv\sqlsrv_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlsrv\sqlsrv_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlsrv\sqlsrv_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlsrv\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\sqlite3_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\sqlite3_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\sqlite3_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\sqlite3_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\sqlite3\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\postgre\postgre_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\postgre\postgre_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\postgre\postgre_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\postgre\postgre_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\postgre\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\subdrivers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\pdo_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\pdo_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\pdo_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\pdo_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\pdo\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\odbc\odbc_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\odbc\odbc_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\odbc\odbc_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\odbc\odbc_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\odbc\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\oci8\oci8_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\oci8\oci8_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\oci8\oci8_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\oci8\oci8_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\oci8\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysqli\mysqli_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysqli\mysqli_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysqli\mysqli_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysqli\mysqli_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysqli\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysql\mysql_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysql\mysql_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysql\mysql_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysql\mysql_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mysql\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mssql\mssql_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mssql\mssql_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mssql\mssql_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mssql\mssql_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\mssql\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\ibase\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\ibase\ibase_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\ibase\ibase_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\ibase\ibase_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\ibase\ibase_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\cubrid\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\cubrid\cubrid_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\cubrid\cubrid_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\cubrid\cubrid_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\cubrid\cubrid_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\drivers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_utility.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_result.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_query_builder.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_forge.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_driver.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB_cache.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\database\DB.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\my_controller\Logined_Controller.php" crc="1519040503"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\compat\standard.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\compat\password.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\compat\mbstring.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\compat\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\compat\hash.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Utf8.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\URI.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Security.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Router.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Output.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Model.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Log.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Loader.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Lang.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Input.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Hooks.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Exceptions.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Controller.php" crc="1519040345"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Config.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Common.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\CodeIgniter.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\core\Benchmark.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\system\.htaccess" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\page.php" crc="1519040052"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\header.php" crc="1519047220"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\parts\footer.php" crc="1519037989"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\error_php.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\error_general.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\error_exception.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\error_db.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\html\error_404.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\cli\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\cli\error_php.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\cli\error_general.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\cli\error_exception.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\cli\error_db.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\cli\error_404.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\errors\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\email\new_password.tpl.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\email\forgot_password.tpl.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\email\activate.tpl.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\reset_password.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\login.php" crc="1519042487"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\index.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\forgot_password.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_user.php" crc="1519046499"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\edit_group.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\deactivate_user.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_user.php" crc="1519046505"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\create_group.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\auth\change_password.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\views\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\userguide\js\jquery.min.js" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\userguide\js\functions.js" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\userguide\userguide.css" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\userguide\index.html" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\third_party\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\sql\ion_auth.sql" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\sql\ion_auth.postgre.sql" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\sql\ion_auth.mssql.sql" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\models\Ion_auth_model.php" crc="1519042432"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\models\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\migrations\001_install_ion_auth.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\logs\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\libraries\Ion_auth.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\libraries\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\libraries\Bcrypt.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\zh_tw\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\zh_tw\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\zh_cn\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\zh_cn\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\vietnamese\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\vietnamese\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\ukrainian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\ukrainian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\turkish\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\turkish\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\thai\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\thai\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\swedish\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\swedish\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\spanish\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\spanish\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\slovenian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\slovenian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\slovak\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\slovak\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\russian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\russian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\romanian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\romanian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\portuguese\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\portuguese\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\polish\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\polish\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\pirate\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\pirate\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\persian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\persian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\norwegian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\norwegian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\lithuanian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\lithuanian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\korean\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\korean\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\japanese\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\japanese\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\italian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\italian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\indonesian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\indonesian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\hungarian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\hungarian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\greek\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\greek\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\german\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\german\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\french\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\french\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\finnish\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\finnish\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\filipino\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\filipino\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\estonian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\estonian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\english\site_lang.php" crc="1519039716"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\english\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\english\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\english\auth_lang.php" crc="1519041340"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\dutch\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\dutch\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\danish\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\danish\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\czech\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\czech\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\croatian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\croatian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\catalan\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\catalan\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\bulgarian\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\bulgarian\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\arabic\ion_auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\arabic\auth_lang.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\language\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\hooks\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\helpers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\core\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Main.php" crc="1519043205"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\controllers\Auth.php" crc="1519047673"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\user_agents.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\routes.php" crc="1519040215"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\profiler.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\mimes.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\migration.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\memcached.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\ion_auth.php" crc="1519036661"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\hooks.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\foreign_chars.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\doctypes.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\database.php" crc="1519037155"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\constants.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\config.php" crc="1519037277"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\config\autoload.php" crc="1519043564"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\cache\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\index.html" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\application\.htaccess" crc="1519036598"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\index.php" crc="1519036599"/>
+		<file name="C:\open\OSPanel\domains\localhost\sslv\.htaccess" crc="1519037107"/>
+	</filescache>
+</project>
