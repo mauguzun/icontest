@@ -30,20 +30,9 @@
 </p>
 
 <p>
-    <?php echo lang('create_user_birthday_label', 'email');?> <br />
+    <?php echo lang('create_user_birthday_label', 'birthday');?> <br />
     <?php echo form_input($birthday);?>
 </p>
-
-<p>
-    <?php echo lang('edit_user_password_label', 'password_confirm');?><br />
-    <?php echo form_input($password);?>
-</p>
-
-<p>
-    <?php echo lang('edit_user_password_confirm_label', 'password_confirm');?><br />
-    <?php echo form_input($password_confirm);?>
-</p>
-
 <p>
     Upload Img
 </p>
@@ -60,9 +49,21 @@
 <img id="res"  height="150" src="<?= $src ?>" />
 
 <p>
+    <?php echo lang('edit_user_password_label', 'password_confirm');?><br />
+    <?php echo form_input($password);?>
+</p>
+
+<p>
     <?php echo lang('edit_user_password_confirm_label', 'password_confirm');?><br />
     <?php echo form_input($password_confirm);?>
 </p>
+
+
+<p>
+    about <br />
+    <?= form_textarea($about) ?>
+</p>
+
 
 <?php echo form_hidden($csrf); ?>
 

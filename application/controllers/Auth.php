@@ -19,7 +19,7 @@ class Auth extends CI_Controller
         $this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
 
 
-        $this->load->view("parts/header");
+       
     }
 
     /**
@@ -535,7 +535,7 @@ class Auth extends CI_Controller
                 if ($this->ion_auth->update($user->id, $data)) {
                     // redirect them back to the admin page if admin, or to the base url if non admin
                     $this->session->set_flashdata('message', $this->ion_auth->messages());
-                    
+                    redirect(base_url('auth/edit_user'), 'refresh');
                 }
                 else {
                     // redirect them back to the admin page if admin, or to the base url if non admin
@@ -624,7 +624,8 @@ class Auth extends CI_Controller
         $this->form_validation->set_rules('first_name', lang('create_user_validation_fname_label'), 'trim|required|min_length[5]|max_length[50]');
         $this->form_validation->set_rules('last_name', lang('create_user_validation_lname_label'), 'trim|required|min_length[5]|max_length[50]');
         $this->form_validation->set_rules('about', 'max 500', 'trim|max_length[500]');
-
+   		$this->form_validation->set_rules('img',null, 'trim');
+   		$this->form_validation->set_rules('birthday', null, 'trim');
     }
 
     protected function _setInputs($user = NULL)
@@ -694,7 +695,7 @@ class Auth extends CI_Controller
             'id'   => 'img_upload',
             'type' => 'file',
             'class'=>'form-control',"autocomplete"=>"off",
-            'value'=> $this->form_validation->set_value('img'),
+            
         );
         
         $this->data['src'] = $user['img'];

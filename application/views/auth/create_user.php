@@ -43,6 +43,22 @@ if ($identity_column !== 'email') {
     <?php echo lang('create_user_birthday_label', 'email');?> <br />
     <?php echo form_input($birthday);?>
 </p>
+<p>
+    Upload Img
+    
+  
+</p>
+
+
+
+<p>
+
+    <?= form_input($img) ?>
+    <?= form_input($img_upload) ?>
+</p>
+
+
+<img id="res"  height="150" src="<?= (isset($_POST['img']))? $_POST['img'] : NULL;  ?>" />
 
 <p>
     <?php echo lang('create_user_password_label', 'password');?> <br />
@@ -55,7 +71,7 @@ if ($identity_column !== 'email') {
 </p>
 
 <p>
-    <?php echo lang('create_user_password_confirm_label', 'password_confirm');?> <br />
+    about <br />
     <?= form_textarea($about) ?>
 </p>
 
@@ -66,3 +82,5 @@ if ($identity_column !== 'email') {
 
 <?php echo form_close();?>
 
+<script src="<?= base_url('js/upload.js')?>">
+</script>

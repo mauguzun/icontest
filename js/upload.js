@@ -5,6 +5,8 @@ function readFile() {
         const file = new FileReader();
 
         file.onload = function(e) {
+        	
+        	        	
             const image = new Image();
             image.src = file.result;
             image.onload = function() {
